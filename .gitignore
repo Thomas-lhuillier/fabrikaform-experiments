@@ -1,0 +1,7 @@
+build
+design
+
+node_modules
+
+.idea
+.vscode/

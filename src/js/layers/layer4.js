@@ -1,0 +1,77 @@
+import * as THREE from 'three';
+
+const content = [];
+
+const shape1 = new THREE.Shape();
+shape1.moveTo(43.9, 22.8);
+shape1.lineTo(3.0, 18.5);
+shape1.bezierCurveTo(2.6, 18.5, 2.3, 18.3, 2.1, 18.0);
+shape1.bezierCurveTo(1.9, 17.8, 1.8, 17.6, 1.7, 17.3);
+shape1.bezierCurveTo(1.6, 16.6, 1.9, 16.0, 2.5, 15.7);
+shape1.lineTo(33.2, 0.0);
+shape1.bezierCurveTo(33.0, 0.1, 32.9, 0.1, 32.8, 0.2);
+shape1.bezierCurveTo(32.8, 0.3, 32.8, 0.3, 32.8, 0.3);
+shape1.bezierCurveTo(32.7, 0.4, 32.6, 0.5, 32.5, 0.7);
+shape1.bezierCurveTo(32.5, 0.8, 32.4, 0.9, 32.4, 1.0);
+shape1.bezierCurveTo(32.3, 1.3, 32.3, 1.7, 32.5, 2.1);
+shape1.lineTo(43.3, 21.7);
+shape1.lineTo(43.5, 22.0);
+shape1.lineTo(43.9, 22.8);
+content.push(shape1);
+
+const shape2 = new THREE.Shape();
+shape2.moveTo(65.2, 61.4);
+shape2.lineTo(89.2, 69.6);
+shape2.lineTo(89.2, 61.3);
+shape2.lineTo(64.7, 61.3);
+shape2.bezierCurveTo(64.7, 61.3, 64.6, 61.3, 64.6, 61.3);
+shape2.bezierCurveTo(64.8, 61.3, 65.0, 61.3, 65.2, 61.4);
+content.push(shape2);
+
+const shape3 = new THREE.Shape();
+shape3.moveTo(148.2, 110.8);
+shape3.lineTo(148.2, 117.3);
+shape3.bezierCurveTo(148.2, 117.8, 148.0, 118.2, 147.6, 118.5);
+shape3.bezierCurveTo(147.5, 118.6, 130.2, 133.6, 130.4, 158.8);
+shape3.bezierCurveTo(130.6, 173.8, 130.5, 187.5, 130.5, 196.8);
+shape3.bezierCurveTo(130.5, 197.3, 130.5, 197.7, 130.5, 198.1);
+shape3.bezierCurveTo(130.5, 204.3, 130.4, 208.1, 130.4, 208.1);
+shape3.bezierCurveTo(130.4, 208.9, 129.7, 209.6, 128.9, 209.6);
+shape3.lineTo(123.4, 209.6);
+shape3.bezierCurveTo(123.0, 209.6, 122.6, 209.4, 122.4, 209.1);
+shape3.bezierCurveTo(122.1, 208.8, 121.9, 208.5, 121.9, 208.1);
+shape3.bezierCurveTo(121.9, 208.0, 122.0, 204.1, 121.9, 198.0);
+shape3.bezierCurveTo(121.8, 197.6, 121.8, 197.1, 121.8, 196.6);
+shape3.bezierCurveTo(121.5, 180.7, 120.1, 153.5, 115.1, 137.6);
+shape3.lineTo(123.9, 137.6);
+shape3.bezierCurveTo(124.7, 137.6, 125.4, 136.9, 125.4, 136.1);
+shape3.lineTo(125.4, 129.2);
+shape3.bezierCurveTo(127.1, 128.7, 128.8, 128.1, 130.5, 127.3);
+shape3.bezierCurveTo(136.1, 124.7, 140.9, 120.6, 144.9, 115.0);
+shape3.bezierCurveTo(145.1, 114.8, 145.2, 114.5, 145.2, 114.2);
+shape3.lineTo(145.2, 109.3);
+shape3.lineTo(146.7, 109.3);
+shape3.bezierCurveTo(147.5, 109.3, 148.2, 110.0, 148.2, 110.8);
+content.push(shape3);
+
+const shape4 = new THREE.Shape();
+shape4.moveTo(37.8, 133.5);
+shape4.bezierCurveTo(37.0, 133.5, 36.3, 132.8, 36.3, 132.0);
+shape4.lineTo(36.3, 112.8);
+shape4.lineTo(4.7, 112.8);
+shape4.lineTo(1.7, 112.8);
+shape4.lineTo(0.7, 112.8);
+shape4.lineTo(0.7, 139.0);
+shape4.bezierCurveTo(0.7, 139.5, 0.4, 140.0, 0.0, 140.3);
+shape4.bezierCurveTo(0.0, 140.3, 0.0, 140.3, 0.0, 140.3);
+shape4.lineTo(20.4, 126.8);
+shape4.lineTo(36.3, 136.5);
+shape4.lineTo(36.3, 135.7);
+shape4.bezierCurveTo(36.3, 135.1, 36.6, 134.6, 37.1, 134.3);
+shape4.lineTo(38.7, 133.5);
+shape4.lineTo(37.8, 133.5);
+content.push(shape4);
+
+exports.content = content;
+exports.color = 0xb6c2c4;
+exports.position = [136.7, 30];

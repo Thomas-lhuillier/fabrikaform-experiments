@@ -1,0 +1,9 @@
+{
+  "presets": ["es2015"],
+  "plugins": [
+    "syntax-dynamic-import",
+    ["module-resolver", { "alias": {
+      "three/OrbitControls": "./node_modules/three/examples/js/controls/OrbitControls.js"
+    }}]
+  ]
+}
